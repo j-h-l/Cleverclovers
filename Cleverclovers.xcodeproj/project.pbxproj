@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B130440175EAC91009EAC09 /* cloverfield_wpouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B13043F175EAC91009EAC09 /* cloverfield_wpouch.png */; };
+		5B2CC41E175E77FC00DFD2A2 /* Pouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2CC41D175E77FC00DFD2A2 /* Pouch.m */; };
+		5B431B2D175C5E4200C1EC4F /* Clover.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B431B2C175C5E4200C1EC4F /* Clover.m */; };
 		5B81F20B1759B763008A8ADB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B81F20A1759B763008A8ADB /* QuartzCore.framework */; };
 		5B81F20D1759B763008A8ADB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B81F20C1759B763008A8ADB /* OpenGLES.framework */; };
 		5B81F20F1759B763008A8ADB /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B81F20E1759B763008A8ADB /* OpenAL.framework */; };
@@ -138,11 +141,16 @@
 		5B81F3A61759B766008A8ADB /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B81F3A51759B766008A8ADB /* vec4.c */; };
 		5B81F3AB1759B766008A8ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81F3AA1759B766008A8ADB /* main.m */; };
 		5B81F3AE1759B766008A8ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81F3AD1759B766008A8ADB /* AppDelegate.m */; };
-		5B81F3B11759B766008A8ADB /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81F3B01759B766008A8ADB /* HelloWorldLayer.m */; };
+		5B81F3B11759B766008A8ADB /* CloverfieldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81F3B01759B766008A8ADB /* CloverfieldLayer.m */; };
 		5B81F3B41759B766008A8ADB /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B81F3B31759B766008A8ADB /* IntroLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B13043F175EAC91009EAC09 /* cloverfield_wpouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloverfield_wpouch.png; path = mockup_assets/cloverfield_wpouch.png; sourceTree = "<group>"; };
+		5B2CC41C175E77FC00DFD2A2 /* Pouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pouch.h; sourceTree = "<group>"; };
+		5B2CC41D175E77FC00DFD2A2 /* Pouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pouch.m; sourceTree = "<group>"; };
+		5B431B2B175C5E4200C1EC4F /* Clover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clover.h; sourceTree = "<group>"; };
+		5B431B2C175C5E4200C1EC4F /* Clover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clover.m; sourceTree = "<group>"; };
 		5B81F2071759B763008A8ADB /* Cleverclovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleverclovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81F20A1759B763008A8ADB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B81F20C1759B763008A8ADB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -418,8 +426,8 @@
 		5B81F3AA1759B766008A8ADB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B81F3AC1759B766008A8ADB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B81F3AD1759B766008A8ADB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B81F3AF1759B766008A8ADB /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		5B81F3B01759B766008A8ADB /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		5B81F3AF1759B766008A8ADB /* CloverfieldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloverfieldLayer.h; sourceTree = "<group>"; };
+		5B81F3B01759B766008A8ADB /* CloverfieldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloverfieldLayer.m; sourceTree = "<group>"; };
 		5B81F3B21759B766008A8ADB /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		5B81F3B31759B766008A8ADB /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -445,6 +453,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B130441175EAC96009EAC09 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5B13043F175EAC91009EAC09 /* cloverfield_wpouch.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
 		5B81F1FE1759B762008A8ADB = {
 			isa = PBXGroup;
 			children = (
@@ -484,10 +500,14 @@
 			children = (
 				5B81F3AC1759B766008A8ADB /* AppDelegate.h */,
 				5B81F3AD1759B766008A8ADB /* AppDelegate.m */,
-				5B81F3AF1759B766008A8ADB /* HelloWorldLayer.h */,
-				5B81F3B01759B766008A8ADB /* HelloWorldLayer.m */,
+				5B81F3AF1759B766008A8ADB /* CloverfieldLayer.h */,
+				5B81F3B01759B766008A8ADB /* CloverfieldLayer.m */,
 				5B81F3B21759B766008A8ADB /* IntroLayer.h */,
 				5B81F3B31759B766008A8ADB /* IntroLayer.m */,
+				5B431B2B175C5E4200C1EC4F /* Clover.h */,
+				5B431B2C175C5E4200C1EC4F /* Clover.m */,
+				5B2CC41C175E77FC00DFD2A2 /* Pouch.h */,
+				5B2CC41D175E77FC00DFD2A2 /* Pouch.m */,
 				5B81F21F1759B763008A8ADB /* Resources */,
 				5B81F2371759B763008A8ADB /* libs */,
 				5B81F3A81759B766008A8ADB /* Supporting Files */,
@@ -498,6 +518,7 @@
 		5B81F21F1759B763008A8ADB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5B130441175EAC96009EAC09 /* assets */,
 				5B81F2201759B763008A8ADB /* Default.png */,
 				5B81F2221759B763008A8ADB /* Default@2x.png */,
 				5B81F2241759B763008A8ADB /* Default-568h@2x.png */,
@@ -937,6 +958,7 @@
 				5B81F2331759B763008A8ADB /* Icon@2x.png in Resources */,
 				5B81F2361759B763008A8ADB /* iTunesArtwork in Resources */,
 				5B81F38C1759B765008A8ADB /* ChangeLog in Resources */,
+				5B130440175EAC91009EAC09 /* cloverfield_wpouch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1056,8 +1078,10 @@
 				5B81F3A61759B766008A8ADB /* vec4.c in Sources */,
 				5B81F3AB1759B766008A8ADB /* main.m in Sources */,
 				5B81F3AE1759B766008A8ADB /* AppDelegate.m in Sources */,
-				5B81F3B11759B766008A8ADB /* HelloWorldLayer.m in Sources */,
+				5B81F3B11759B766008A8ADB /* CloverfieldLayer.m in Sources */,
 				5B81F3B41759B766008A8ADB /* IntroLayer.m in Sources */,
+				5B431B2D175C5E4200C1EC4F /* Clover.m in Sources */,
+				5B2CC41E175E77FC00DFD2A2 /* Pouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,6 +1187,7 @@
 				5B81F3B91759B766008A8ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

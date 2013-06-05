@@ -2,22 +2,21 @@
 //  IntroLayer.m
 //  Cleverclovers
 //
-//  Created by Jeehyung Lee on 5/31/13.
+//  Created by Jeehyung Lee on 5/26/13.
 //  Copyright Jeehyung Lee 2013. All rights reserved.
 //
 
 
 // Import the interfaces
 #import "IntroLayer.h"
-#import "HelloWorldLayer.h"
+#import "CloverfieldLayer.h"
 
 
 #pragma mark - IntroLayer
 
-// HelloWorldLayer implementation
 @implementation IntroLayer
 
-// Helper class method that creates a Scene with the HelloWorldLayer as the only child.
+// Helper class method that creates a Scene with the IntroLayer as the only child.
 +(CCScene *) scene
 {
 	// 'scene' is an autorelease object.
@@ -53,6 +52,7 @@
 
 		// add the label as a child to this Layer
 		[self addChild: background];
+//        NSLog(@"I'm in IntroLayer");
 	}
 	
 	return self;
@@ -61,6 +61,6 @@
 -(void) onEnter
 {
 	[super onEnter];
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] ]];
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[CloverfieldLayer scene] ]];
 }
 @end

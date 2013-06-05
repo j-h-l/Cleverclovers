@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  Cleverclovers
 //
-//  Created by Jeehyung Lee on 5/31/13.
+//  Created by Jeehyung Lee on 5/26/13.
 //  Copyright Jeehyung Lee 2013. All rights reserved.
 //
 
