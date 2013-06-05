@@ -5,4 +5,4 @@ Learning iOS development through Cocos2d.
 
 
 ## License ##
-Use it how ever you like.
+Use it however you would like. Use it for good! :)
